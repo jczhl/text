@@ -1,4 +1,4 @@
-keep-del-app "Clock FileManager KeKeThemeSpace"   #删除所有*/*del-app*/*  apps为要保留的
+keep-del-app "Clock FileManager KeKeThemeSpace ConsumerIRApp"   #删除所有*/*del-app*/*  apps为要保留的
 #de Aod "息屏显示"
 #de BaiduInput* "百度输入"
 #de *AccessoryFramework "设备快连"
@@ -11,8 +11,8 @@ keep-del-app "Clock FileManager KeKeThemeSpace"   #删除所有*/*del-app*/*  ap
 #de FindMyPhone* "查找手机 "
 #de *WeatherService "天气服务"
 #de OpenID "云网络" #控制云服务网络 删掉会出现没网
+de KeKeMarket "软件商店" #配置云服务恢复应用快速
 de MSPService "移动服务"
-de KeKeMarket "软件商店"
 de OTA "软件更新"
 de Browser "浏览器"
 de Music "音乐"
